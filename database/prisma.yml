@@ -1,9 +1,11 @@
-service: hackernews-node
+#service: gql-hn
 
-stage: dev
+#stage: dev
 
 datamodel: datamodel.graphql
 
 secret: mysecret123
 
-cluster: public-jetstork-958/prisma-us1
+#cluster: ryan-yogan/prisma-us1
+
+endpoint: https://us1.prisma.sh/ryan-yogan/gql-hn/dev
